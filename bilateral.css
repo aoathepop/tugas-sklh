@@ -102,6 +102,7 @@ button:hover{
 }
 
 
+
 .footer{
     position: absolute;
     margin:0px 0px;
@@ -109,33 +110,6 @@ button:hover{
 
 .column{
     font-size: 18px;
-    margin: 0px 20px;
+    margin: 0px 10px;
     color: #1b2f19;
-    line-height: 1.6;
-}
-
-.content-row {
-    display: flex;
-    align-items: center; /* Aligns image and text vertically */
-    margin: 20px 0; /* Adds space between rows */
-        margin-bottom: 30px; /* Adds space between each row */
-        line-height: 1.6;
-
-}
-
-.content-text {
-    flex: 1; /* Makes text take up equal or more space */
-    margin-right: 20px; /* Adds space between text and image */
-    margin:     0px 0px;
-    line-height: 1.6;
-}
-
-.content-image img {
-    max-width: 100%; /* Ensures the image scales properly */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 8px; /* Optional: Adds rounded corners */
-}
-
-.content-row.bilateral .content-text {
-    padding-bottom: 20px; /* Adds internal spacing for Bilateral text */
 }
